@@ -21,6 +21,9 @@
   ],
   "author": "Wanari",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/TeamWanari/timoji/issues"
   },
