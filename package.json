@@ -4,7 +4,9 @@
   "description": "The emoji time library you ever wanted!",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js",
+    "test": "npx nyc@latest mocha src/index.test.js",
+    "coverage:create": "nyc report --reporter=text-lcov > coverage.lcov",
+    "coverage:upload": "./node_modules/.bin/codecov",
     "test:w": "mocha src/index.test.js -w",
     "semantic-release": "semantic-release"
   },
@@ -30,7 +32,9 @@
   "homepage": "https://github.com/TeamWanari/timoji#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "codecov": "^3.5.0",
     "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
     "semantic-release": "^15.13.12"
   }
 }
