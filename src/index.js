@@ -1,9 +1,9 @@
 module.exports = {
+  format: formatFnc,
   closestClock: closestClockFnc,
   dayOrNight: dayNightFnc,
   arrow: arrowFnc,
-  number: numberFnc,
-  format: formatFnc
+  number: numberFnc
 };
 
 function formatFnc(date) {
