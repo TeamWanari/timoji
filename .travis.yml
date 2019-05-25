@@ -1,0 +1,26 @@
+language: node_js
+
+node_js:
+  - 8
+  - 6
+
+install: npm install
+
+before_install:
+  - npm install -g npm@5
+
+jobs:
+  include:
+    - stage: test
+      script:
+        - npm run build
+        - npm run test:single
+      after_success: npm run codecov
+    # Define the release stage that runs semantic-release
+    - stage: release
+      if: branch = master
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npm run semantic-release

@@ -1,14 +1,16 @@
 {
-  "name": "timoji",
-  "version": "1.0.0",
+  "name": "@wanari/timoji",
+  "version": "0.0.0-development",
   "description": "The emoji time library you ever wanted!",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w"
+    "test": "mocha src/index.test.js -w",
+    "test:single": "mocha src/index.test.js",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TeamWanari/timoji.git"
+    "url": "https://github.com/TeamWanari/timoji.git"
   },
   "keywords": [
     "time",
@@ -25,6 +27,7 @@
   "homepage": "https://github.com/TeamWanari/timoji#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "semantic-release": "^15.13.12"
   }
 }
