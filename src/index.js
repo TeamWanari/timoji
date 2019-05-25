@@ -109,3 +109,4 @@ function numberFnc(date) {
       return intToEmoji(10 - lastDigit);
   }
 }
+
