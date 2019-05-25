@@ -1,0 +1,30 @@
+{
+  "name": "timoji",
+  "version": "1.0.0",
+  "description": "The emoji time library you ever wanted!",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha src/index.test.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamWanari/timoji.git"
+  },
+  "keywords": [
+    "time",
+    "clock",
+    "emoji",
+    "converter",
+    "formatter"
+  ],
+  "author": "Wanari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeamWanari/timoji/issues"
+  },
+  "homepage": "https://github.com/TeamWanari/timoji#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
