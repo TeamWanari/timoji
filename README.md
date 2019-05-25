@@ -1,5 +1,9 @@
 # timoji
 
+[![Build Status](https://img.shields.io/travis/TeamWanari/timoji.svg?style=flat-square)](https://travis-ci.org/TeamWanari/timoji)
+[![npm version](https://img.shields.io/npm/v/@wanari/timoji.svg?style=flat-square)](https://www.npmjs.com/package/@wanari/timoji)
+[![coverage](https://img.shields.io/codecov/c/github/TeamWanari/timoji.svg?style=flat-square)](https://codecov.io/gh/TeamWanari/timoji)
+
 The emoji time library you ever wanted!
 
 ### How to use:
