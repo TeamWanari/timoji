@@ -4,8 +4,8 @@
   "description": "The emoji time library you ever wanted!",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w",
-    "test:single": "mocha src/index.test.js",
+    "test": "mocha src/index.test.js",
+    "test:w": "mocha src/index.test.js -w",
     "semantic-release": "semantic-release"
   },
   "repository": {
